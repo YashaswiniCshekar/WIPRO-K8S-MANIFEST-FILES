@@ -7,7 +7,7 @@ metadata:
 
 spec:
   containers:
-    - name: blood-donor-project
+    - name: yashu_vege
       image: yashaswini25/veg
       ports:
         - containerPort: 80
