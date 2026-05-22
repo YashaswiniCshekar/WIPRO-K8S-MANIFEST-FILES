@@ -7,7 +7,7 @@ metadata:
 
 spec:
   containers:
-    - name: yashu-vege
+    - name: yashaswini25/vegetable-app:latest
       image: yashaswini25/veg
       ports:
         - containerPort: 80
