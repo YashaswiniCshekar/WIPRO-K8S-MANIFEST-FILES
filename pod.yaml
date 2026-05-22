@@ -1,0 +1,13 @@
+kind: Pod
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: exe-pod
+
+spec:
+  containers:
+    - name: blood-donor-project
+      image: yashaswini25/veg
+      ports:
+        - containerPort: 80
